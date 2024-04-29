@@ -1,0 +1,26 @@
+.home-container {
+  background-color: var(--light-gray);
+  color: var(--black);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.title {
+  color: var(--bright-orange);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.quote {
+  color: var(--dark-blue);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: var(--black);
+  font-size: 1.2rem;
+}
