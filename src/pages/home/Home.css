@@ -1,67 +1,38 @@
-body {
-  overflow: hidden;
+h1 {
+  font-size: 14em;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  margin: 0 0 0 0;
 }
 
-.view {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transform: skew(-5deg);
+h2 {
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 6px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.left,
-.right {
-  bottom: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
+.home {
+  margin-top: 15em;
 }
 
-.left {
-  left: -5%;
-  right: 50%;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.divider {
-  background-color: #fc0;
-  border-left: solid 2px #000;
-  border-right: solid 2px #000;
-  bottom: -5%;
-  left: 49.5%;
-  position: absolute;
-  right: 49.5%;
-  top: -5%;
-  z-index: 1;
-}
-
-.right {
-  left: 50%;
-  right: -5%;
-}
-
-.jules,
-.thibault {
-  filter: brightness(60%);
-  bottom: -5%;
-  left: -5%;
-  position: absolute;
-  right: -5%;
-  top: -5%;
-  transform: skew(5deg);
-}
-
-.jules {
-  background-image: url("../../assets/jules.jpg");
-  max-width: 150%;
-  background-position: center center;
-  background-size: cover;
-}
-
-.thibault {
-  background-image: url("../../assets/thibault.jpg");
-  max-width: 100%;
-  background-position: center center;
-  background-size: cover;
+.catch-phrase {
+  font-size: 3em;
+  letter-spacing: 5px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 2px black;
 }

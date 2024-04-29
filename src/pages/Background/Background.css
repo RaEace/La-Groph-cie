@@ -1,0 +1,66 @@
+body {
+  overflow: hidden;
+}
+
+.view {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: skew(-5deg);
+  z-index: -5;
+}
+
+.left,
+.right {
+  bottom: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.left {
+  left: -5%;
+  right: 50%;
+}
+
+.divider {
+  background-color: #fc0;
+  bottom: -10%;
+  left: 49.6%;
+  position: absolute;
+  right: 49.6%;
+  top: -10%;
+  z-index: 1;
+}
+
+.right {
+  left: 50%;
+  right: -5%;
+}
+
+.jules,
+.thibault {
+  filter: brightness(60%);
+  bottom: -5%;
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: -5%;
+  transform: skew(5deg);
+}
+
+.jules {
+  background-image: url("../../assets/images/jules.jpg");
+  max-width: 150%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.thibault {
+  background-image: url("../../assets/images/thibault.jpg");
+  max-width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
