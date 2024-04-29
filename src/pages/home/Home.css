@@ -1,26 +1,67 @@
-.home-container {
-  background-color: var(--light-gray);
-  color: var(--black);
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: 50px auto;
-  text-align: center;
+body {
+  overflow: hidden;
 }
 
-.title {
-  color: var(--bright-orange);
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+.view {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: skew(-5deg);
 }
 
-.quote {
-  color: var(--dark-blue);
-  font-style: italic;
-  margin-bottom: 20px;
+.left,
+.right {
+  bottom: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
 }
 
-.description {
-  color: var(--black);
-  font-size: 1.2rem;
+.left {
+  left: -5%;
+  right: 50%;
+}
+
+.divider {
+  background-color: #fc0;
+  border-left: solid 2px #000;
+  border-right: solid 2px #000;
+  bottom: -5%;
+  left: 49.5%;
+  position: absolute;
+  right: 49.5%;
+  top: -5%;
+  z-index: 1;
+}
+
+.right {
+  left: 50%;
+  right: -5%;
+}
+
+.jules,
+.thibault {
+  filter: brightness(60%);
+  bottom: -5%;
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: -5%;
+  transform: skew(5deg);
+}
+
+.jules {
+  background-image: url("../../assets/jules.jpg");
+  max-width: 150%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.thibault {
+  background-image: url("../../assets/thibault.jpg");
+  max-width: 100%;
+  background-position: center center;
+  background-size: cover;
 }
