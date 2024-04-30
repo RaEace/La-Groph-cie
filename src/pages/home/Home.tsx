@@ -1,13 +1,12 @@
-// Home.tsx
 import React from "react";
 import Betting from "../Betting/Betting";
 import "./Home.css";
-import Landing from "../Landing/Landing";
+// import Landing from "../Landing/Landing";
 
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <Landing />
+      {/* <Landing /> */}
       <Betting />
     </div>
   );
