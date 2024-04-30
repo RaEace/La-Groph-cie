@@ -1,15 +1,14 @@
 // Home.tsx
 import React from "react";
+import Betting from "../Betting/Betting";
 import "./Home.css";
-import LandText from "../../components/LandText/LandText";
+import Landing from "../Landing/Landing";
 
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <div className="land-page">
-        <LandText />
-      </div>
-      <h1 className="small-title ">A</h1>
+      <Landing />
+      <Betting />
     </div>
   );
 };

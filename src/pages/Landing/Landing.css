@@ -1,0 +1,10 @@
+.land-page {
+  background-image: url("../../assets/images/landpage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 32vh;
+  padding-bottom: 32vh;
+  align-items: stretch;
+}
