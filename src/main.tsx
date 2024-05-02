@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Home from "./pages/home/Home.tsx";
 import "./index.css";
 import WeightFollowing from "./pages/WeightFollwing/Bet.tsx";
+import Home from "./pages/Home/Home.tsx";
 
 const router = createBrowserRouter([
   {
