@@ -1,0 +1,13 @@
+.spec-element-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.spec-element-label {
+  font-size: 5vh;
+}
+
+.spec-element-value {
+  font-size: 5vh;
+}
