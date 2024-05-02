@@ -1,9 +1,9 @@
 .bet-title {
-  font-size: 8em;
+  font-size: 6em;
   font-weight: 600;
   letter-spacing: 6px;
   color: white;
-  margin: 0 0 0 0;
+  margin: 0 0 -2vh 0;
   display: flex;
   flex-direction: column;
 }

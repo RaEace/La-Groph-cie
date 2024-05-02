@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.bet-bar {
+.bet-bar-layout {
   display: flex;
   flex-direction: column;
   padding-left: 10vh;
@@ -26,13 +26,26 @@
   font-size: 40px;
 }
 
-.bet-names-style {
-  color: var(--white);
-  margin: 10vh -5px 0 -5px;
-}
-
 .countdown-layout {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.button-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.button-style {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 10px 20px 10px 20px;
+}
+
+.bet-names-style {
+  color: var(--white);
+  margin: 10vh 0 0 0;
 }

@@ -1,4 +1,4 @@
-import "./BetBar.css"
+import "./BetBar.css";
 
 interface ProgressBarProps {
   thibault: number;
@@ -12,15 +12,20 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ thibault, jules }) => {
 
   return (
     <div className="progress-bar-container">
-      <div className="progress-bar-thibault" style={{ width: `${thibaultPercentage}%`}}>
-        {thibaultPercentage.toFixed(2)} €
-      </div>
-      <div className="progress-bar-jules" style={{ width: `${julesPercentage}%`}}>
+      <div
+        className="progress-bar-jules"
+        style={{ width: `${julesPercentage}%` }}
+      >
         {julesPercentage.toFixed(2)} €
+      </div>
+      <div
+        className="progress-bar-thibault"
+        style={{ width: `${thibaultPercentage}%` }}
+      >
+        {thibaultPercentage.toFixed(2)} €
       </div>
     </div>
   );
 };
 
 export default ProgressBar;
-
