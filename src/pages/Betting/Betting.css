@@ -1,9 +1,37 @@
 .betting {
-  background-color: #0b1421;
+  background-color: var(--background);
   margin: 0;
+  height: 100vh;
 }
 .title-section {
   margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bet-bar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.bet-names-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.bet-names-style {
+  color: var(--white);
+  margin: 10vh -5px 0 -5px;
+}
+
+.countdown-layout {
   display: flex;
   flex-direction: column;
   align-items: center;

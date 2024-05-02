@@ -1,6 +1,6 @@
 import WeightChart from "../../components/WeightChart/WeightChart";
 
-const Bet = () => {
+const WeightFollowing = () => {
   return (
     <div>
       <h1>Bet</h1>
@@ -9,4 +9,4 @@ const Bet = () => {
   );
 };
 
-export default Bet;
+export default WeightFollowing;

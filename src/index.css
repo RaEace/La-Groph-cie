@@ -1,3 +1,10 @@
 :root {
   font-family: "Humane", sans-serif;
+  --red: rgb(192, 17, 17);
+  --yellow: rgb(155, 140, 57);
+  --background: rgb(11, 20, 33);
+  --white: white;
+  --back: black;
+
+  color: var(--white);
 }

@@ -9,7 +9,7 @@
 }
 
 .red-word {
-  color: red;
+  color: var(--red);
 }
 
 .title-element {

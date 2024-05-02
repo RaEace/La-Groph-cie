@@ -1,7 +1,7 @@
 import React from "react";
 import Betting from "../Betting/Betting";
-import "./Home.css";
 // import Landing from "../Landing/Landing";
+import "./Home.css";
 
 const Home: React.FC = () => {
   return (
