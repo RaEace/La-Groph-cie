@@ -1,8 +1,11 @@
 import BetBar from "../../components/BetBar/BetBar";
 import BetTitle from "../../components/BetTitle/BetTitle";
+import TimeCountdown from "../../components/TimeCountdown/TimeCountdown";
 import "./Betting.css";
 
 const Betting = () => {
+  const finalDate = new Date('2024-09-01T23:59:59');
+
   return (
     <div className="betting">
       <div className="title-section">
@@ -16,7 +19,7 @@ const Betting = () => {
         <BetBar jules={40} thibault={130}/>
       </div>
       <div className="countdown-layout">
-        99 : 99 : 99 : 99
+        <TimeCountdown finalDate={finalDate}/>
       </div>
     </div>
   );

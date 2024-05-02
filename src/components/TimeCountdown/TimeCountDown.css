@@ -1,0 +1,31 @@
+.countdown-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 0 0 0;
+  font-size: 100px;
+  text-align: top;
+}
+
+.countdown-element-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 10px 20px;
+  font-weight: bold;
+}
+
+.countdown-text {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.countdown-value {
+  font-size: 100px;
+  text-align: center;
+}
+
+.hidden-content {
+  visibility: hidden;
+}
