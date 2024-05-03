@@ -3,12 +3,12 @@ import "./LandText.css";
 const LandText = () => {
   return (
     <div className="container">
-      <h2 className="small-title">GROPHETIE 01: LAGNY VS MOURA</h2>
-      <h1 className="main-title">LE COMBAT DES TITANS</h1>
-      <p className="catch-phrase">
+      <h2>GROPHETIE 01: LAGNY VS MOURA</h2>
+      <h1>LE COMBAT DES TITANS</h1>
+      <h4>
         Qui du gros Thibault ou du gros Jules sortira vainqueur de ce combat de
         poids lourds ?
-      </p>
+      </h4>
     </div>
   );
 };
