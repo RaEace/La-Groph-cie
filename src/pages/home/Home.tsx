@@ -4,6 +4,7 @@ import Landing from "../Landing/Landing";
 import "./Home.css";
 import SpecJules from "../SpecJules/SpecJules";
 import SpecThibault from "../SpecThibault/SpecThibault";
+import Rules from "../Rules/Rules";
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
       <Betting />
       <SpecJules />
       <SpecThibault />
+      <Rules />
     </div>
   );
 };
