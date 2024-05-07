@@ -5,9 +5,15 @@
 }
 
 .spec-element-label {
-  font-size: 5%;
+  font-size: 2em;
+  letter-spacing: 3px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: grey;
+  margin: 0;
 }
 
 .spec-element-value {
-  font-size: 5%;
+  font-size: 6em;
+  margin: 0;
 }

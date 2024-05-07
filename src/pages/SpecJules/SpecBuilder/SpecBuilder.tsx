@@ -1,21 +1,30 @@
+import "./SpecBuilder.css";
+
 interface SpecBuilderProps {
   label: string;
   amount: number;
   metric: string;
-  red?: boolean;
+  color?: string;
+}
+
+function getColor(color: string) {
+  if (color === "red") {
+    return "var(--red)";
+  }
+  return "var(--white)";
 }
 const SpecBuilder: React.FC<SpecBuilderProps> = ({
   label,
   amount,
   metric,
-  red = false,
+  color = "white",
 }) => {
-  const color = red ? "var(--red)" : "white";
   return (
     <div className="spec-element-layout">
       <p className="spec-element-label">{label}</p>
-      <p className="spec-element-value" style={{ color: color }}>
-        {amount} {metric}
+      <p className="spec-element-value" style={{ color: getColor(color) }}>
+        {amount}
+        {metric}
       </p>
     </div>
   );

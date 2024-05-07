@@ -11,14 +11,15 @@ const SpecJules: React.FC = () => {
         <div className="specs">
           <div className="size-specs">
             <SpecBuilder label="Taille" amount={180} metric="cm" />
-            <SpecBuilder label="Taille du" amount={2} metric="cm" />
+            <SpecBuilder label="Poids de départ" amount={86.2} metric="kg" />
           </div>
           <div className="weight-specs">
-            <SpecBuilder label="Poids de départ" amount={86.2} metric="kg" />
-            <SpecBuilder label="Taille" amount={78} metric="kg" red />
+            <SpecBuilder label="Taille du" amount={2} metric="cm" />
+            <SpecBuilder label="Objectif" amount={78} metric="kg" color="red" />
           </div>
         </div>
       </div>
+      <div className="spec-photo"></div>
     </div>
   );
 };
