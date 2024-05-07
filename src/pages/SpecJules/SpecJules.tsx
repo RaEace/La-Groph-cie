@@ -1,7 +1,7 @@
 import SpecTitle from "../../components/SpecTitle /SpecTitle";
-import SpecBuilder from "./SpecBuilder/SpecBuilder";
 import corsica from "../../assets/images/CorsicaFlag.png";
 import "./SpecJules.css";
+import SpecBuilder from "../../components/SpecBuilder/SpecBuilder";
 
 const SpecJules: React.FC = () => {
   return (
