@@ -10,9 +10,9 @@ const SpecTitle: React.FC<SpecTitleProps> = ({ title, flag }) => {
   const titlePart = title.split(" ");
 
   return (
-    <div className="title-section">
+    <div className="spec-title-section">
       <img className="flag-layout" src={flag} />
-      <h1 className="title-layout">
+      <h1 className="spec-title-layout">
         {titlePart.map((titleElement) => (
           <div className="title-element" key={titleElement}>
             {titleElement}

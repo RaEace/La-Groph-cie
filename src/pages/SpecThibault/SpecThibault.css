@@ -8,35 +8,35 @@
   justify-content: space-between;
 }
 
-.spec-section {
+.thibault-layout .spec-section {
   height: 100%;
   width: 20%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 8%;
+  margin: 10% 10% 10% 0;
   gap: 10%;
 }
 
-.specs {
+.thibault-layout .specs {
   display: flex;
   flex-direction: row;
   gap: 100%;
 }
 
-.size-specs {
+.thibault-layout .size-specs {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   gap: 110%;
 }
-.weight-specs {
+.thibault-layout .weight-specs {
   display: flex;
   flex-direction: column;
   gap: 110%;
 }
 
-.spec-photo {
+.thibault-layout .spec-photo {
   height: 100%;
   width: 55%;
   background-position: center center;
