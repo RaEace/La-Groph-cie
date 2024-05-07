@@ -8,12 +8,12 @@
 .progress-bar-jules {
   height: 100%;
   text-align: center;
-  line-height: 9vh;
+  line-height: 9%;
   color: white;
   font-weight: bold;
   background-color: var(--red);
   text-align: start;
-  font-size: 5vh;
+  font-size: 5%;
   padding-left: 10px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -22,12 +22,12 @@
 .progress-bar-thibault {
   height: 100%;
   text-align: center;
-  line-height: 9vh;
+  line-height: 9%;
   color: white;
   font-weight: bold;
   background-color: var(--yellow);
   text-align: end;
-  font-size: 5vh;
+  font-size: 5%;
   padding-right: 10px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;

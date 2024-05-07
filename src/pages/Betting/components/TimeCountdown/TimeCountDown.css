@@ -10,7 +10,7 @@
 .countdown-element-layout {
   display: flex;
   flex-direction: column;
-  padding: 5vh 20px 2vh 20px;
+  padding: 5% 20px 2% 20px;
   font-weight: bold;
 }
 
