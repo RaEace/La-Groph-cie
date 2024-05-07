@@ -5,3 +5,13 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.spec-section {
+  height: 100%;
+  width: 40%;
+}
+
+.spec-photo {
+  height: 100%;
+  width: 40%;
+}
