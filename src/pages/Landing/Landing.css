@@ -6,8 +6,12 @@
   background-repeat: no-repeat;
   margin: 0;
   align-items: stretch;
+  display: flex;
 }
 
 .land-layout {
-  margin-top: 32vh;
+  align-content: center;
+  justify-content: center;
+  border: 1px red;
+  margin: 0 10% 0 10%;
 }
