@@ -1,4 +1,16 @@
 .opinions {
-  height: 55vh;
+  height: 60vh;
+  width: 100%;
   background-color: var(--background);
+}
+
+.opinions .title-layout {
+  margin-top: 5vh;
+}
+.advises {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 6% 6% 0 6%;
+  gap: 5%;
 }

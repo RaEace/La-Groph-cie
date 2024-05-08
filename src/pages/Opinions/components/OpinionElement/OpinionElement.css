@@ -1,0 +1,26 @@
+.opinion-element-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.opinion-element-text {
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+
+.opinion-element-name {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.opinion-element-photo img {
+  width: 12.5%;
+}
+
+.opinion-element-title {
+  color: var(--red);
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
