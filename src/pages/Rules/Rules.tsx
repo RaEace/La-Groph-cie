@@ -9,12 +9,12 @@ const Rules: React.FC = () => {
       </div>
       <div className="rules-section">
         <div className="left-rules">
-          <div className="shape1">prout</div>
-          <div className="shape2">prout</div>
+          <div className="shape1">Du premier mai au premier septembre</div>
+          <div className="shape2">Celui qui perd le plus de poids gagne</div>
         </div>
         <div className="right-rules">
-          <div className="shape3">prout</div>
-          <div className="shape4">prout</div>
+          <div className="shape3">Controle du poids chaque samedi matin</div>
+          <div className="shape4">Que le meilleurs gros (ou maigre) gagne</div>
         </div>
       </div>
     </div>

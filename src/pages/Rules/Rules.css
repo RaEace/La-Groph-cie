@@ -36,10 +36,9 @@
 .rules .shape1 {
   height: 300px;
   width: 100%;
-  opacity: 0.8;
-  background-color: white;
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 30%, 30% 0);
   margin: 1%;
+  outline: 2px white;
 }
 
 .rules .shape2 {
