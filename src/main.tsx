@@ -2,17 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
-import WeightFollowing from "./pages/WeightFollwing/Bet.tsx";
-import Home from "./pages/Home/Home.tsx";
+import Home from "./pages/home/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-  },
-  {
-    path: "/bet",
-    element: <WeightFollowing />,
   },
 ]);
 
