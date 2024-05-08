@@ -1,11 +1,45 @@
 .footer {
   height: 40vh;
   background-color: black;
+  display: flex;
 }
 
-.opinion-elements {
-  width: 50%;
+.footer-logo {
+  width: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5%;
+  background-size: 120px;
+  background-image: url(../../assets/images/Logo-Blanc.png);
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 10% 5% 10%;
+}
+
+.footer-pages {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.footer-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-page p {
+  font-size: 1.25em;
+  letter-spacing: 2.5px;
+  margin: 5% 0 5% 0;
+}
+
+.footer-text {
+  font-size: 1.25em;
+  font-weight: lighter;
+  letter-spacing: 2.5px;
+  margin: 5% 0 5% 0;
 }
