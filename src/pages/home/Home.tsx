@@ -5,6 +5,8 @@ import "./Home.css";
 import SpecJules from "../SpecJules/SpecJules";
 import SpecThibault from "../SpecThibault/SpecThibault";
 import Rules from "../Rules/Rules";
+import Opinions from "../Opinions/Opinions";
+import Footer from "../Footer/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -14,6 +16,8 @@ const Home: React.FC = () => {
       <SpecJules />
       <SpecThibault />
       <Rules />
+      <Opinions />
+      <Footer />
     </div>
   );
 };

@@ -39,7 +39,9 @@
 .thibault-layout .spec-photo {
   height: 100%;
   width: 60%;
-  background-position: center center;
-  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-size: 80% auto; /* This will make the image fit the container width while maintaining its aspect ratio */
+  background-repeat: no-repeat;
   background-image: url(../../assets/images/tibo.png);
 }
