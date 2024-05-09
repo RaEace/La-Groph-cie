@@ -30,7 +30,7 @@ h2 {
 }
 
 h4 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 400;
   letter-spacing: 5px;
   color: white;
@@ -40,7 +40,7 @@ h4 {
 }
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   h1 {
     font-size: 10em;
   }
@@ -51,23 +51,21 @@ h4 {
   }
 }
 
-@media (max-width: 992px) {
-  h1 {
-    font-size: 8em;
-  }
-
-  h2,
-  h4 {
-    font-size: 2em;
-  }
-}
-
 @media (max-width: 768px) {
   h1 {
-    font-size: 6em;
+    font-size: 5em;
+    letter-spacing: 1px;
   }
 
   h2 {
     font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 300;
   }
 }
