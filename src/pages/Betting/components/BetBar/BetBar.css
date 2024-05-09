@@ -13,7 +13,7 @@
   font-weight: bold;
   background-color: var(--red);
   text-align: start;
-  font-size: 5%;
+  font-size: 0;
   padding-left: 10px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -31,4 +31,10 @@
   padding-right: 10px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .progress-bar-container {
+    height: 6vh;
+  }
 }

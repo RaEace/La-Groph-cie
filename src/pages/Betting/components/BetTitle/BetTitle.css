@@ -17,3 +17,11 @@
   margin: -1%;
   align-self: center;
 }
+
+@media (max-width: 768px) {
+  .bet-title {
+    font-size: 5em;
+    letter-spacing: 3px;
+    margin-top: 10%;
+  }
+}

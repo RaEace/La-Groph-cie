@@ -28,3 +28,18 @@
 .hidden-content {
   visibility: hidden;
 }
+
+@media (max-width: 768px) {
+  .countdown-layout {
+    margin: 10px 0 0 0;
+    font-size: 80px;
+  }
+
+  .countdown-element-layout {
+    padding: 10% 7px 2% 7px;
+  }
+
+  .countdown-text {
+    font-size: 20px;
+  }
+}

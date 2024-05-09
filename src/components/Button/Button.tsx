@@ -2,7 +2,7 @@ import "./Button.css";
 
 interface ButtonProps {
   text: string;
-  style: string;
+  style?: string;
   onClick: () => void;
 }
 

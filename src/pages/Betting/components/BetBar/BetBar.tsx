@@ -16,7 +16,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ thibault, jules }) => {
         className="progress-bar-jules"
         style={{ width: `${julesPercentage}%` }}
       >
-        {julesPercentage.toFixed(2)} €
+        <div className="bet-money">{julesPercentage.toFixed(2)} €</div>
       </div>
       <div
         className="progress-bar-thibault"

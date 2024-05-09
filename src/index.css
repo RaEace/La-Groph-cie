@@ -54,7 +54,7 @@ h4 {
 @media (max-width: 768px) {
   h1 {
     font-size: 5em;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
   }
 
   h2 {

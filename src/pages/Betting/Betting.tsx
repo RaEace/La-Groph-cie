@@ -2,6 +2,7 @@ import BetBar from "./components/BetBar/BetBar";
 import BetTitle from "./components/BetTitle/BetTitle";
 import TimeCountdown from "./components/TimeCountdown/TimeCountdown";
 import "./Betting.css";
+import Button from "../../components/Button/Button";
 
 const Betting = () => {
   const finalDate = new Date("2024-09-01T23:59:59");
@@ -22,7 +23,7 @@ const Betting = () => {
         <TimeCountdown finalDate={finalDate} />
       </div>
       <div className="button-layout">
-        <button className="button-style">PARIER</button>
+        <Button text="PARIER" style="button-style" onClick={() => {}} />
       </div>
     </div>
   );
