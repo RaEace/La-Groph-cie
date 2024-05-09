@@ -5,13 +5,41 @@
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
-  align-items: stretch;
-  display: flex;
 }
 
 .land-layout {
+  display: flex;
+  flex-direction: column;
   align-content: center;
+  align-items: center;
   justify-content: center;
-  border: 1px red;
-  margin: 0 10% 0 10%;
+  margin: 10% 10% 0 10%;
+}
+
+.top-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 5% 0 5%;
+}
+
+.top-logo {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../assets/images/Logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.top-view-btn {
+  width: 100px;
+  height: 30px;
+  align-self: center;
+}
+
+.view-btn {
+  margin-top: 5%;
+  width: 200px;
+  height: 50px;
 }
