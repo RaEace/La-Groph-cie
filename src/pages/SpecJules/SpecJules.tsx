@@ -1,4 +1,4 @@
-import SpecTitle from "../../components/SpecTitle /SpecTitle";
+import SpecTitle from "../../components/SpecTitle/SpecTitle";
 import corsica from "../../assets/images/CorsicaFlag.png";
 import "./SpecJules.css";
 import SpecBuilder from "../../components/SpecBuilder/SpecBuilder";

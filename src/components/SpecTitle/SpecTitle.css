@@ -1,0 +1,28 @@
+.spec-title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.spec-title-layout {
+  display: flex;
+  flex-direction: column;
+  font-size: 8em;
+  letter-spacing: 4px;
+}
+
+.flag-layout {
+  margin-bottom: 10%;
+}
+
+.title-element {
+  margin-top: -10%;
+  margin-bottom: -10%;
+  justify-content: flex-start;
+}
+
+.spec-title-section img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}

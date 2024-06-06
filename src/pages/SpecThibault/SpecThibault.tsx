@@ -1,6 +1,6 @@
 import portugal from "../../assets/images/PortugalFlag.png";
 import SpecBuilder from "../../components/SpecBuilder/SpecBuilder";
-import SpecTitle from "../../components/SpecTitle /SpecTitle";
+import SpecTitle from "../../components/SpecTitle/SpecTitle";
 import "./SpecThibault.css";
 
 const SpecThibault: React.FC = () => {
