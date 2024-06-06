@@ -15,7 +15,7 @@ const SpecThibault: React.FC = () => {
             <SpecBuilder label="Poids de départ" amount={92} metric="kg" />
           </div>
           <div className="weight-specs">
-            <SpecBuilder label="Taille du" amount={6} metric="cm" />
+            <SpecBuilder label="Taille du" amount={96} metric="kg" />
             <SpecBuilder label="Objectif" amount={80} metric="kg" color="red" />
           </div>
         </div>
