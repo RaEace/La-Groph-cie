@@ -1,5 +1,5 @@
 import SpecTitle from "../../components/SpecTitle/SpecTitle";
-import corsica from "../../assets/images/CorsicaFlag.png";
+import corsica from "../../assets/images/corsica-svg.svg";
 import "./SpecJules.css";
 import SpecBuilder from "../../components/SpecBuilder/SpecBuilder";
 
@@ -14,7 +14,7 @@ const SpecJules: React.FC = () => {
             <SpecBuilder label="Poids de départ" amount={86.2} metric="kg" />
           </div>
           <div className="weight-specs">
-            <SpecBuilder label="Taille du" amount={2} metric="cm" />
+            <SpecBuilder label="Poids max" amount={87} metric="kg" />
             <SpecBuilder label="Objectif" amount={78} metric="kg" color="red" />
           </div>
         </div>
