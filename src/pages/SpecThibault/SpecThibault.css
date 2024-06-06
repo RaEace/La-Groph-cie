@@ -10,38 +10,58 @@
 
 .thibault-layout .spec-section {
   height: 100%;
-  width: 20%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 10% 10% 10% 0;
-  gap: 10%;
+  padding: 10%;
 }
 
 .thibault-layout .specs {
   display: flex;
   flex-direction: row;
-  gap: 100%;
+  padding: 20% 20% 10% 0;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .thibault-layout .size-specs {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-  gap: 110%;
+  gap: 100%;
 }
 .thibault-layout .weight-specs {
   display: flex;
   flex-direction: column;
-  gap: 110%;
+  gap: 100%;
 }
 
 .thibault-layout .spec-photo {
-  height: 100%;
-  width: 60%;
-  background-position: center;
-  overflow: hidden;
-  background-size: 80% auto; /* This will make the image fit the container width while maintaining its aspect ratio */
-  background-repeat: no-repeat;
+  height: auto;
+  width: 70%;
+  background-position: center center;
+  background-size: cover;
   background-image: url(../../assets/images/tibo.png);
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 768px) {
+  .thibault-layout {
+    flex-direction: column-reverse;
+  }
+
+  .thibault-layout .spec-section {
+    width: 100%;
+    padding: 0%;
+  }
+
+  .thibault-layout .specs {
+    justify-content: space-around;
+  }
+
+  .thibault-layout .spec-photo {
+    width: 100%;
+  }
 }
