@@ -59,6 +59,7 @@
 
   .thibault-layout .specs {
     justify-content: space-around;
+    padding-right: 0;
   }
 
   .thibault-layout .spec-photo {

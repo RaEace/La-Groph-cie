@@ -59,6 +59,7 @@
 
   .jules-layout .specs {
     justify-content: space-around;
+    padding-right: 0;
   }
 
   .jules-layout .spec-photo {
