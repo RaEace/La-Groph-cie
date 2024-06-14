@@ -24,11 +24,11 @@ const Footer: React.FC = () => {
         </div>
         <div className="footer-text">
           <p>
-            Attention : Parier sur l'issue de la compétition 'Thibaut Mourra'
-            est une entreprise risquée qui peut entraîner une perte totale de
-            votre capital. Les paris comportent des risques financiers, et il
-            est important de se rappeler que les parieurs sont les seuls maîtres
-            de leurs investissements. En aucun cas, les organisateurs de cette
+            Attention : Parier sur l'issue de la compétition 'Thibaut Moura' est
+            une entreprise risquée qui peut entraîner une perte totale de votre
+            capital. Les paris comportent des risques financiers, et il est
+            important de se rappeler que les parieurs sont les seuls maîtres de
+            leurs investissements. En aucun cas, les organisateurs de cette
             compétition ne peuvent être tenus responsables des pertes encourues
             par les parieurs.
           </p>

@@ -43,3 +43,21 @@
   letter-spacing: 2.5px;
   margin: 5% 0 5% 0;
 }
+
+@media (max-width: 768px) {
+  .footer-logo {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-image: url(../../assets/images/Logo-Blanc.png);
+  }
+
+  .footer {
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .footer-pages {
+    display: none;
+  }
+}
