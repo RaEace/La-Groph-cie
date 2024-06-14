@@ -62,11 +62,11 @@
 
   .rules .rules-section {
     gap: 10px;
-    margin: 8% 4% 4% 4%;
+    margin: 4% 4% 4% 4%;
   }
 
   .rules .box {
-    height: 170px;
+    height: 10%;
     display: flex;
     justify-content: auto;
     margin: 0;
