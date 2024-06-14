@@ -16,11 +16,15 @@ const OpinionElement: React.FC<OpinionElementProps> = ({
   return (
     <div className="opinion-element-block">
       <div className="opinion-element-text">"{text}"</div>
-      <div className="opinion-element-photo">
-        <img src={photo} />
+      <div className="opinion-element-name-title">
+        <div className="opinion-element-photo">
+          <img src={photo} />
+        </div>
+        <div>
+          <div className="opinion-element-name">{name.toLocaleUpperCase()}</div>
+          <div className="opinion-element-title">{title}</div>
+        </div>
       </div>
-      <div className="opinion-element-name">{name.toLocaleUpperCase()}</div>
-      <div className="opinion-element-title">{title}</div>
     </div>
   );
 };

@@ -14,3 +14,20 @@
   margin: 6% 6% 0 6%;
   gap: 5%;
 }
+
+@media (max-width: 768px) {
+  .opinions {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--background);
+  }
+
+  .advises {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10% 10% 10% 10%;
+    height: 100%;
+  }
+}

@@ -24,3 +24,22 @@
   font-size: 1.5em;
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+  .opinion-element-text {
+    font-size: 2em;
+    letter-spacing: 2px;
+  }
+
+  .opinion-element-name-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: space-evenly;
+  }
+
+  .opinion-element-photo img {
+    width: 100%;
+    height: auto;
+  }
+}
