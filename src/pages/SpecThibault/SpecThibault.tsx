@@ -1,13 +1,12 @@
 import portugal from "../../assets/images/PortugalFlag.png";
 import SpecBuilder from "../../components/SpecBuilder/SpecBuilder";
 import SpecTitle from "../../components/SpecTitle/SpecTitle";
-import tibo from "../../assets/images/tibo.png";
 import "./SpecThibault.css";
 
 const SpecThibault: React.FC = () => {
   return (
     <div className="thibault-layout">
-      <img className="spec-photo" src={tibo} />
+      <div className="spec-photo"></div>
       <div className="spec-section">
         <SpecTitle title="THIBAULT MOURA" flag={portugal} />
         <div className="specs">
